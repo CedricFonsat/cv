@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "averta";
+    src: url("../fonts/AvertaDemoPE-Regular.otf");
+}
+@font-face {
+    font-family: "grandslang";
+    src: url("../fonts/GrandSlang-Roman.ttf");
+}
+@font-face {
+    font-family: "grotesk";
+    src: url("../fonts/StretchPro.otf");
+}
+body{
+    background: url(../image/background.jpg);
+    font-family: "averta";
+    color: white;
+}
+h1{
+    font-family: "grotesk",sans-serif;
+    font-weight: bold;
+    font-stretch: ultra-expanded; 
+}
+.content{
+    background-color: white;
+    font-size: 12px;
+}
+.m-bottom{
+    margin-bottom: 150px !important;
+}
+
+/************ Header **********/
+
+.title-page{
+    font-family: "grandslang";
+}
+
+/**************** About ***************/
+
+#about{
+    margin-top: 10% !important;
+    margin-bottom: 20% !important;
+}
+.hide{
+    display: none;
+}
+.button-hover:hover > .hvr-icon{
+    animation: hvr-icon-down 2s;
+}
+@keyframes hvr-icon-down {
+    0%,
+      50%,
+      100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    25%,
+      75% {
+      -webkit-transform: translateY(6px);
+      transform: translateY(6px);
+    }
+  }
+  
+/**************** Experience ***************/
+
+.margin-left{
+    margin-left: 150px !important;
+}
+.margin-circle{
+    margin-left:40.58% !important;
+}
+.arrow{
+    width: 50px;
+    animation: arrow 1s linear infinite;
+}
+@keyframes arrow {
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(30%);
+    }
+    
+}
+.arrow img{
+    width: 100%;
+}
+/***************** Diplome et formation *************/
+
+.bg-grey{
+    background-color: #e1e2e3;
+}
+
+/************** Medi Query ****************/
+
+@media screen and (max-width:768px) {
+    #about{
+        margin-top: 35% !important;
+        margin-bottom: 30% !important;
+    }
+    .arrow{
+        display: none;
+    }
+}
