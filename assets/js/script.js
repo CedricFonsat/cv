@@ -19,3 +19,6 @@ function myFunction() {
       moreText.style.display = "inline";
     }
   }
+function dark(){
+  console.log("test");
+}
