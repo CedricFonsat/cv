@@ -25,16 +25,16 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#experience">Expérience proféssionnelle</a>
+                            <a class="nav-link active text-white navTranslate" aria-current="page" href="#experience">Expérience proféssionnelle</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#competence">Compétences</a>
+                            <a class="nav-link active text-white navTranslate" aria-current="page" href="#competence">Compétences</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#contact">Me contacter</a>
+                            <a class="nav-link active text-white navTranslate" aria-current="page" href="#contact">Me contacter</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#about">A propos</a>
+                            <a class="nav-link active text-white navTranslate" aria-current="page" href="#about">A propos</a>
                         </li>
                     </ul>
                 </div>
@@ -45,17 +45,21 @@
     <main>
         <!-- About -->
         <section class="mt-lg-5 mb-5 container" id="about">
+            <div id="translate">
+                <button onclick="traduction()">EN</button>
+                <button onclick="location.reload()">FR</button>
+            </div>
             <h1 class="text-center">HI I'M CEDRIC 👋</h1>
             <article class="row">
                 <h2 class="text-center title-page">Developpeur Web Junior</h2>
-                <h3 class="about text-center mt-5">A propos</h3>
-                <p class="text-center mb-3 mx-auto col-lg-8">Passionné d’informatique depuis très jeune j’ai décidé de
+                <h3 class="about text-center mt-5 about-translate">A propos</h3>
+                <p class="text-center mb-3 mx-auto col-lg-8 tl-about">Passionné d’informatique depuis très jeune j’ai décidé de
                     suivre ce chemin en faisant un baccalauréat STI2D Option SIN, puis j’ai fait une formation
                     d’Intégrateur et de Développeur Web. Actuellement, je suis entrain de suivre une
                     nouvelle formation pour approfondir mes connaissances.</p>
                 <div class="d-flex justify-content-center">
-                    <a class="btn border text-white" href="#contact">Me contacter</a> <a
-                        class="btn btn-primary button-hover ms-2" download
+                    <a class="btn border text-white about-translate" href="#contact">Me contacter</a> <a
+                        class="btn btn-primary button-hover ms-2 about-translate" download
                         href="assets/pdf/cv-FonsatCedric.pdf">Telecharger mon CV <i
                             class="fa fa-arrow-circle-o-down hvr-icon"></i></a>
                 </div>
@@ -85,15 +89,15 @@
                 <div class="col-12 col-lg-5 py-2">
                     <div class="card" data-aos="fade-up">
                         <div class="card-body">
-                            <div class="float-end text-dark">Mars 2022</div>
-                            <h4 class="card-title text-dark">STAGE DE TECHNICIEN</h4>
+                            <div class="float-end text-dark experience-translate-one">Mars 2022</div>
+                            <h4 class="card-title text-dark experience-translate-one">STAGE DE TECHNICIEN</h4>
                             <div class="text-dark">
                                 LDLC La Garde 795 Av. de Draguignan,
                                 83130 La Garde
                             <ul class="text-dark">
-                                <li>Mise en rayon</li>
-                                <li>Diagnostic d'ordinateur</li>
-                                <li>Montage d'ordinateur fixe</li>
+                                <li class="experience-translate-one">Mise en rayon</li>
+                                <li class="experience-translate-one">Diagnostic d'ordinateur</li>
+                                <li class="experience-translate-one">Montage d'ordinateur fixe</li>
                             </ul>
                             </div>
                         </div>
@@ -105,14 +109,14 @@
                 <div class="col-12 col-lg-5 py-2">
                     <div class="card" data-aos="fade-up">
                         <div class="card-body">
-                            <div class="float-end text-dark">Juin 2021</div>
-                            <h4 class="card-title text-dark">STAGE DE DEVELOPPEUR WEB</h4>
+                            <div class="float-end text-dark experience-translate-two">Juin 2021</div>
+                            <h4 class="card-title text-dark experience-translate-two">STAGE DE DEVELOPPEUR WEB</h4>
                             <div class="text-dark">
                                 NES(Normandy Eco-Space) 78880 Arques-la-Bataille
                             <ul class="text-dark">
-                                <li>Conception de site e-commerce (Wordpress)</li>
-                                <li>Mise en place d'un cahier des charges</li>
-                                <li>Mise en place du responsive</li>
+                                <li class="experience-translate-two">Conception de site e-commerce (Wordpress)</li>
+                                <li class="experience-translate-two">Mise en place d'un cahier des charges</li>
+                                <li class="experience-translate-two">Mise en place du responsive</li>
                             </ul>
                             </div>
                         </div>
@@ -150,14 +154,14 @@
                 <div class="col-12 col-lg-5 py-2">
                     <div class="card" data-aos="fade-up">
                         <div class="card-body">
-                            <div class="float-end text-dark">Janvier - Avril 2020</div>
-                            <h4 class="card-title text-dark">SERVICE CIVIQUE INTERNATIONAL</h4>
+                            <div class="float-end text-dark experience-translate-three">Janvier - Avril 2020</div>
+                            <h4 class="card-title text-dark experience-translate-three">SERVICE CIVIQUE INTERNATIONAL</h4>
                             <div class="text-dark">
                                 Epitech (École de developpeur) 1777 Cotonou (BENIN)
                             <ul class="text-dark">
-                                <li>Initiation au language de programation (HTML,CSS,JS)</li>
-                                <li>Montage video - travail en equipe</li>
-                                <li>Échange et discussion avec des jeunes (cultures et langue)</li>
+                                <li class="experience-translate-three">Initiation au language de programation (HTML,CSS,JS)</li>
+                                <li class="experience-translate-three">Montage video - travail en equipe</li>
+                                <li class="experience-translate-three">Échange et discussion avec des jeunes (cultures et langue)</li>
                             </ul>
                             </div>
                         </div>
@@ -168,10 +172,10 @@
         <!-- Diplome et formation -->
         <section class="mt-5 container m-bottom" id="diplome">
             <h2 class="mb-5"><i class="fa fa-graduation-cap"></i> Diplôme et formation</h2>
-            <div class="accordion accordion-flush col-lg-8 mx-auto" id="accordionFlushExample">
+            <div class="accordion accordion-flush col-lg-8 mx-autoƒ" id="accordionFlushExample">
                 <article class="accordion-item">
                     <h3 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button formation-translate" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                             TITRE PROFESSIONNEL CONCEPTEUR DÉVELOPPEUR D'APPLICATIONS
                         </button>
@@ -179,14 +183,14 @@
                     <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne"
                         data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body bg-grey">
-                            <p class="text-dark">En cours</p>
+                            <p class="text-dark formation-translate">En cours</p>
                             <p class="text-dark">2022</p>
                         </div>
                     </div>
                 </article>
                 <article class="accordion-item">
                     <h3 class="accordion-header" id="flush-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed formation-translate" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                             FORMATION TECHNICIEN D'INTEGRATION ET DE DEVELOPPEMENT WEB
                         </button>
@@ -194,7 +198,7 @@
                     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                         data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body bg-grey">
-                            <p class="text-dark lh-1">Technicien d'intégration et de développement Web</p>
+                            <p class="text-dark lh-1 formation-translate">Technicien d'intégration et de développement Web</p>
                             <p class="text-dark lh-1">IFCASS 76200 Dieppe</p>
                             <p class="text-dark lh-1">2021</p>
                         </div>
@@ -202,7 +206,7 @@
                 </article>
                 <article class="accordion-item">
                     <h3 class="accordion-header" id="flush-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed formation-translate" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseThree" aria-expanded="false"
                             aria-controls="flush-collapseThree">
                             BACCALAUREAT STI2D OPTION SIN
@@ -211,8 +215,8 @@
                     <div id="flush-collapseThree" class="accordion-collapse collapse"
                         aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body bg-grey">
-                            <p class="text-dark">Sciences et technologies de l'industrie et du développement durable</p>
-                            <p class="text-dark">Option Système d'information et numérique</p>
+                            <p class="text-dark formation-translate">Sciences et technologies de l'industrie et du développement durable</p>
+                            <p class="text-dark formation-translate">Option Système d'information et numérique</p>
                             <p class="text-dark">Lycée Joseph Zobel 97215 RIVIÈRE SALÉE</p>
                             <p class="text-dark">2018</p>
                         </div>
@@ -260,8 +264,8 @@
         <section class="mt-5 mb-5 container m-bottom" id="language">
             <h2 class="mb-5"><i class="fa-solid fa-globe"></i> Langue(s) parlée(s)</h2>
             <article class="mx-auto col-lg-8">
-                <h3 class="h5">ANGLAIS TECHNIQUE</h3>
-                <p class="h5">FRANCAIS</p>
+                <h3 class="h5 speak-translate">ANGLAIS TECHNIQUE</h3>
+                <p class="h5 speak-translate">FRANCAIS</p>
             </article>
         </section>
         <!-- Formulaire de contact -->
@@ -272,24 +276,24 @@
                     <div class="col-lg-5">
                         <div class="form-floating">
                             <input type="text" class="form-control" id="name" placeholder="name@example.com">
-                            <label class="text-dark" for="name">Nom</label>
+                            <label class="text-dark form-translate" for="name">Nom</label>
                         </div>
                     </div>
                     <div class="col-lg-5">
                         <div class="form-floating">
                             <input type="email" class="form-control" id="email" placeholder="name@example.com">
-                            <label class="text-dark" for="email">Email</label>
+                            <label class="text-dark form-translate" for="email">Email</label>
                         </div>
                     </div>
                     <div class="col-lg-10">
                         <div class="form-floating">
                             <textarea class="form-control" name="message" id="message" rows="3"></textarea>
-                            <label class="text-dark" for="message">Message</label>
+                            <label class="text-dark form-translate" for="message">Message</label>
                         </div>
                     </div>
                     <div class="col-lg-10">
                         <div class="form-floating">
-                            <input type="submit" class="btn btn-primary" value="Envoyer">
+                            <button type="submit" class="btn btn-primary form-translate">Envoyer</button>
                         </div>
                     </div>
                 </div>
@@ -304,7 +308,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
                     <h5 class="text-uppercase">Cédric FONSAT</h5>
-                    <p>Développeur WEB Junior</p>
+                    <p class="footer-translate">Développeur WEB Junior</p>
                     <p class="h2"><a href="https://github.com/CedricFonsat"><i class="fa-brands fa-github"></i></a></p>
                 </div>
                 <div class="col-lg-6 col-md-12 mb-4 mb-md-0 lh-1">
