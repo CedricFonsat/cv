@@ -27,6 +27,19 @@ h1{
 .m-bottom{
     margin-bottom: 150px !important;
 }
+#darkmode{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+}
+.night{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+}
+
 
 /************ Header **********/
 
